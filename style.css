@@ -6,7 +6,8 @@
 
 body{
   font-family:'Poppins',sans-serif;
-  overflow:hidden;
+  overflow-y:auto;
+  overflow-x:hidden;
   background:black;
   color:white;
 }
@@ -158,6 +159,7 @@ body{
   .message-box{
     padding:22px;
   }
+}
 /* SCROLL SMOOTH */
 html{
   scroll-behavior:smooth;
@@ -188,15 +190,14 @@ html{
 /* MESSAGE PAGE */
 .message-page{
   min-height:100vh;
-
   background:#111;
 
   display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:flex-start;
 
   padding:80px 20px;
-
+  overflow-y:auto;
   position:relative;
 }
 }
